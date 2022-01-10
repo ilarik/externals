@@ -9,7 +9,7 @@
         "build_steps": [
             "autoreconf -vi",
             "./configure --prefix=TEMPLATE_INSTALL_PREFIX",
-            "make -jTEMPLATE_JOBS",
+            "make",
             "make install"
             ],
         "external_build_steps": [
